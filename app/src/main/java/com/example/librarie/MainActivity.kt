@@ -9,6 +9,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        DaInterstitial.getInstance().init(this,"dasdas")
+
+
+       // DaInterstitial.getInstance().init(this,"dasdas")
     }
 }
