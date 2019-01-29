@@ -6,7 +6,7 @@ import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
 
-open class DaInterstitial private constructor() {
+open class DaInterstitial public constructor() {
 
     companion object {
         private val mInstance: DaInterstitial = DaInterstitial()
