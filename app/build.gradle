@@ -24,8 +24,9 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation('com.github.BejanCorneliu:testlib:1.0.4') {
+    implementation('com.github.BejanCorneliu:testlib:1.0.5') {
         transitive = true
+
     }
     //implementation project(':librarietest2')
     // implementation project(':librarietest2')

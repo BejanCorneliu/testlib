@@ -1,5 +1,6 @@
 package com.example.librarie
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
@@ -10,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-
+startActivity(Intent(this,Sclav::class.java))
        // DaInterstitial.getInstance().init(this,"dasdas")
     }
 }
